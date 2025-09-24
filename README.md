@@ -7,24 +7,25 @@ Velice děkji discord uživateli @akrej (id 221668967780057088) za vyřešení p
 Vyzývatel + AI Asistent pro formátování otázek do .json 
 Nástroj pro rychlou a efektivní tvorbu otázek do hry Vyzývatel pomocí umělé inteligence Gemini od Google. Aplikace umožňuje převod textových poznámek na strukturovaný JSON formát a jejich následné nahrání přímo do vaší sady otázek.
 
-![Obrázek uživatelského rozhraní aplikace]
-Klíčové funkce
+<img width="945" height="778" alt="image" src="https://github.com/user-attachments/assets/a13de119-8b3e-4ae0-979d-06042cbc0aa7" />
+
+
+
+Funkce 
 
     Textový editor: Pohodlné psaní a úprava textu s otázkami.
 
     Správa souborů: Možnost ukládat a načítat rozpracované texty z lokálních souborů.
 
-    Import z Wordu: Podpora načítání textů přímo z .docx dokumentů.
+     Podpora Wordu: Podpora načítání textů přímo z .docx dokumentů.
 
-    AI Generování: Převod textu na strukturovaný JSON formát pomocí Gemini API.
+    AI formátování: Převod textu na strukturovaný JSON formát pomocí Gemini API.
 
-    Náhled a úpravy: Zobrazení vygenerovaných otázek před nahráním.
+    Náhled a validace: Kontrola správnosti formátu a Zobrazení vygenerovaných otázek před nahráním.
 
-    Přímé nahrání: Nahrání hotových otázek do konkrétní sady ve hře Vyzývatel.
+    Nahrání otázek ze souboru: Nahrání hotových otázek do konkrétní sady ve hře Vyzývatel.
 
-    Bezpečnost: Aplikace si vyžádá váš souhlas před uložením přihlašovacích údajů nebo API klíče na disk.
-
-    Tmavý režim: Moderní a přehledné uživatelské rozhraní.
+    Tmavý režim: Neúspěšný pokus o Moderní a přehledné uživatelské rozhraní
 
 Instalace a nastavení
 
@@ -42,7 +43,7 @@ Pro spuštění projektu z Python skriptu je nutné mít nainstalovaný Python 3
 
     Spuštění aplikace:
 
-    python gui_uploader_V4.3.5.py
+    python vyzyvatel_gui_uploader_alpha_0.1
 
 Jak aplikaci používat
 
@@ -50,7 +51,7 @@ Jak aplikaci používat
 
         V záložce "Editor Otázek" napište nebo vložte text s otázkami.
 
-        Pro výběrové otázky označte správnou odpověď (např. hvězdičkou * na začátku řádku).
+        Pro výběrové otázky označte správnou odpověď (např. hvězdičkou * na začátku nebo na konciřádku), ale jakýkoliv formát označení by měl být přijatelný. Otázky ani nemusí být pod sebou. Stačí že budou nějakým konzistentním způsobm označeny.
 
         Pro nahrání existujícího textu použijte tlačítko Načíst... v horní liště.
 
@@ -64,11 +65,11 @@ Jak aplikaci používat
 
     Nahrání do hry:
 
-        V záložce "Nahrávač" zkontrolujte náhled vygenerovaných otázek.
+        V záložce "Nahrávač" zkontrolujte náhled vygenerovaných otázek.(zobrazi se jen otázky ne odpovědi)
 
         Přihlaste se do svého účtu ve Vyzývateli pomocí tlačítka vpravo nahoře.
 
-        Zadejte ID sady, do které chcete otázky nahrát.
+        Zadejte ID sady, do které chcete otázky nahrát. nebo vytvořete sadu novou. 
 
         Klikněte na tlačítko Nahrát otázky.
 
@@ -86,3 +87,4 @@ Pokud chcete z aplikace vytvořit samostatný spustitelný soubor, který nevyž
     Výsledek:
 
     Po dokončení procesu naleznete finální soubor Vyzvyvatel_AI_Asistent.exe ve složce dist.
+
