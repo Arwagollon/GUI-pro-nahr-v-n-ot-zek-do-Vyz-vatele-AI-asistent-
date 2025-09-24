@@ -4,8 +4,8 @@ Poděkování:
 
 Velice děkji discord uživateli @akrej (id 221668967780057088) za vyřešení přihlašování přes API. 
 
-Vyzývatel + AI Asistent pro formátování otázek do .json 
-Nástroj pro rychlou a efektivní tvorbu otázek do hry Vyzývatel pomocí umělé inteligence Gemini od Google. Aplikace umožňuje převod textových poznámek na strukturovaný JSON formát a jejich následné nahrání přímo do vaší sady otázek.
+Vyzyvatel + AI Asistent pro formátování otázek do .json 
+Nástroj pro rychlou a efektivní tvorbu otázek do hry Vyzyvatel pomocí umělé inteligence Gemini od Google. Aplikace umožňuje převod textových poznámek na strukturovaný JSON formát a jejich následné nahrání přímo do vaší sady otázek.
 
 <img width="945" height="778" alt="image" src="https://github.com/user-attachments/assets/a13de119-8b3e-4ae0-979d-06042cbc0aa7" />
 
@@ -23,7 +23,7 @@ Funkce
 
     Náhled a validace: Kontrola správnosti formátu a Zobrazení vygenerovaných otázek před nahráním.
 
-    Nahrání otázek ze souboru: Nahrání hotových otázek do konkrétní sady ve hře Vyzývatel.
+    Nahrání otázek ze souboru: Nahrání hotových otázek do konkrétní sady ve hře Vyzyvatel.
 
     Tmavý režim: Neúspěšný pokus o Moderní a přehledné uživatelské rozhraní
 
@@ -61,13 +61,13 @@ Jak aplikaci používat
 
         Při prvním použití budete vyzváni k zadání vašeho Google AI (Gemini) API klíče. Můžete ho získat zde.
 
-        AI zpracuje text a automaticky vás přesune do záložky "Nahrávač do Vyzývatele".
+        AI zpracuje text a automaticky vás přesune do záložky "Nahrávač do Vyzyvatele".
 
     Nahrání do hry:
 
         V záložce "Nahrávač" zkontrolujte náhled vygenerovaných otázek.(zobrazi se jen otázky ne odpovědi)
 
-        Přihlaste se do svého účtu ve Vyzývateli pomocí tlačítka vpravo nahoře.
+        Přihlaste se do svého účtu ve Vyzyvateli pomocí tlačítka vpravo nahoře.
 
         Zadejte ID sady, do které chcete otázky nahrát. nebo vytvořete sadu novou. 
 
@@ -87,5 +87,6 @@ Pokud chcete z aplikace vytvořit samostatný spustitelný soubor, který nevyž
     Výsledek:
 
     Po dokončení procesu naleznete finální soubor Vyzvyvatel_AI_Asistent.exe ve složce dist.
+
 
 
