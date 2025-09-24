@@ -1,4 +1,4 @@
-popis jsou prozatimní AI generované nesmisly. Aplikace sama je také z 90 procent AI generovaná, ale ikdyž s mnoha bugy funkční, takže vás to nemusí zajímat. 
+##Popis je prozatimní AI generovaný poslosmyl. Aplikace sama je také z 90 procent AI generovaná, ale ikdyž s mnoha bugy zhruba funkční. 
 
 Poděkování:
 
@@ -87,4 +87,5 @@ Pokud chcete z aplikace vytvořit samostatný spustitelný soubor, který nevyž
     Výsledek:
 
     Po dokončení procesu naleznete finální soubor Vyzvyvatel_AI_Asistent.exe ve složce dist.
+
 
