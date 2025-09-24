@@ -1,50 +1,49 @@
-##Popis je prozatimní AI generovaný poslosmyl. Aplikace sama je také z 90 procent AI generovaná, ale ikdyž s mnoha bugy zhruba funkční. 
+# Popis je prozatimní AI generovaný polosmysl 
+## Aplikace sama je také z 90 procent AI generovaná, ale ikdyž s mnoha bugy zhruba funkční. 
 
-Poděkování:
-
+# Poděkování:
 Velice děkji discord uživateli @akrej (id 221668967780057088) za vyřešení přihlašování přes API. 
 
-Vyzyvatel + AI Asistent pro formátování otázek do .json 
-Nástroj pro rychlou a efektivní tvorbu otázek do hry Vyzyvatel pomocí umělé inteligence Gemini od Google. Aplikace umožňuje převod textových poznámek na strukturovaný JSON formát a jejich následné nahrání přímo do vaší sady otázek.
+# Vyzyvatel AI Asistent pro formátování otázek k do .json 
+Nástroj pro rychlou a efektivní tvorbu otázek do hry Vyzyvatel pomocí umělé inteligence Gemini od Google. Aplikace umožňuje převod otázek napsaných v běžné řeči na strukturovaný JSON formát a jejich následné nahrání přímo do vaší sady otázek.
 
 <img width="945" height="778" alt="image" src="https://github.com/user-attachments/assets/a13de119-8b3e-4ae0-979d-06042cbc0aa7" />
 
+---
 
+## Klíčové funkce
 
-Funkce 
+-   **Textový editor:** Pohodlné psaní a úprava textu s otázkami.
+-   **Správa souborů:** Možnost ukládat a načítat rozpracované texty z lokálních souborů.
+-   **Import z Wordu:** Podpora načítání textů přímo z `.docx` dokumentů.
+-   **AI Generování:** Převod textu na strukturovaný JSON formát pomocí Gemini API.
+-   **Náhled a úpravy:** Zobrazení vygenerovaných otázek před nahráním.
+-   **Přímé nahrání:** Nahrání hotových otázek do konkrétní sady ve hře Vyzývatel.
+-   **možnost uložení přihlášení (na vlastní nebezpečí)** Aplikace vám nabídne možnost uložení přihlašovacích údajů nebo API klíče na disk v textovém formátu.
+-   **Tmavý režim:** Moderní a přehledné uživatelské rozhraní. (pokus)
 
-    Textový editor: Pohodlné psaní a úprava textu s otázkami.
+---
 
-    Správa souborů: Možnost ukládat a načítat rozpracované texty z lokálních souborů.
-
-     Podpora Wordu: Podpora načítání textů přímo z .docx dokumentů.
-
-    AI formátování: Převod textu na strukturovaný JSON formát pomocí Gemini API.
-
-    Náhled a validace: Kontrola správnosti formátu a Zobrazení vygenerovaných otázek před nahráním.
-
-    Nahrání otázek ze souboru: Nahrání hotových otázek do konkrétní sady ve hře Vyzyvatel.
-
-    Tmavý režim: Neúspěšný pokus o Moderní a přehledné uživatelské rozhraní
-
-Instalace a nastavení
+## Instalace a nastavení
 
 Pro spuštění projektu z Python skriptu je nutné mít nainstalovaný Python 3.9+ a všechny potřebné závislosti.
 
-    Klonujte repozitář:
+#### 1. naklonujte repozitář:
+```bash
 
     git clone https://[URL_VASEHO_REPOZITARE]
     cd Vyzvyvatel_AI_Asistent
+```
 
-    Nainstalujte závislosti:
-    Všechny potřebné knihovny jsou definovány v souboru requirements.txt. Nainstalujte je pomocí jediného příkazu:
-
+#### Nainstalujte závislosti:
+Všechny potřebné knihovny jsou definovány v souboru requirements.txt. Nainstalujte je pomocí jediného příkazu:
+```bash
     pip install -r requirements.txt
-
-    Spuštění aplikace:
-
+```
+#### Spuštění aplikace:
+```bash
     python vyzyvatel_gui_uploader_alpha_0.1
-
+```
 Jak aplikaci používat
 
     Příprava textu:
@@ -87,6 +86,7 @@ Pokud chcete z aplikace vytvořit samostatný spustitelný soubor, který nevyž
     Výsledek:
 
     Po dokončení procesu naleznete finální soubor Vyzvyvatel_AI_Asistent.exe ve složce dist.
+
 
 
 
