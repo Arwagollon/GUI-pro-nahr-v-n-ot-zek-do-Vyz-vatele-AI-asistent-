@@ -1,4 +1,5 @@
-# GUI-pro-nahrávín-otázek-do-Vyzyvatele+AI-asistent
+Vyzývatel AI Asistent
+
 Nástroj pro rychlou a efektivní tvorbu otázek do hry Vyzývatel pomocí umělé inteligence Gemini od Google. Aplikace umožňuje převod textových poznámek na strukturovaný JSON formát a jejich následné nahrání přímo do vaší sady otázek.
 
 ![Obrázek uživatelského rozhraní aplikace]
