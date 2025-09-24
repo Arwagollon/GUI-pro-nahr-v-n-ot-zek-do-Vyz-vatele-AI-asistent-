@@ -1,5 +1,10 @@
-Vyzývatel AI Asistent
+popis jsou prozatimní AI generované nesmisly. Aplikace sama je také z 90 procent AI generovaná, ale ikdyž s mnoha bugy funkční, takže vás to nemusí zajímat. 
 
+Poděkování:
+
+Velice děkji discord uživateli @akrej (id 221668967780057088) za vyřešení přihlašování přes API. 
+
+Vyzývatel + AI Asistent pro formátování otázek do .json 
 Nástroj pro rychlou a efektivní tvorbu otázek do hry Vyzývatel pomocí umělé inteligence Gemini od Google. Aplikace umožňuje převod textových poznámek na strukturovaný JSON formát a jejich následné nahrání přímo do vaší sady otázek.
 
 ![Obrázek uživatelského rozhraní aplikace]
@@ -79,4 +84,5 @@ Pokud chcete z aplikace vytvořit samostatný spustitelný soubor, který nevyž
     Jednoduše spusťte soubor build.bat. Skript se postará o instalaci závislostí a vytvoření .exe souboru.
 
     Výsledek:
+
     Po dokončení procesu naleznete finální soubor Vyzvyvatel_AI_Asistent.exe ve složce dist.
