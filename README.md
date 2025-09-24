@@ -4,7 +4,7 @@
 # Poděkování:
 Velice děkuji discord uživateli @akrej (id 221668967780057088) za vyřešení přihlašování přes API. 
 
-# Uploader otázek do hry Vyzyvatel s AI Asistentem pro formátování otázek k do .json 
+# Uploader otázek do hry Vyzyvatel s AI Asistentem pro formátování otázek do .json 
 Nástroj pro rychlou a efektivní tvorbu otázek do hry Vyzyvatel pomocí umělé inteligence Gemini od Google. Aplikace umožňuje převod otázek napsaných v běžné řeči na strukturovaný JSON formát a jejich následné nahrání přímo do vaší sady otázek.
 
 ![image](https://github.com/user-attachments/assets/a13de119-8b3e-4ae0-979d-06042cbc0aa7)
@@ -74,4 +74,5 @@ Jednoduše spusťte soubor `build.bat`. Skript se postará o instalaci závislos
 
 ### 3. Výsledek
 Po dokončení procesu naleznete finální soubor **Vyzvyvatel_AI_Asistent.exe** ve složce **dist**.
+
 
